@@ -1,6 +1,6 @@
-[[
+--[[
 Write a function SumProd that returns both the sum and the product of two numbers.
-]]
+]]--
 
 function SumProd(first, second)
 	return first + second, first * second
