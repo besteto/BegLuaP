@@ -1,3 +1,8 @@
+[[
+Write a stateful iterator generator, SortedPairs, that behaves just like pairs, except that it goes through key-value pairs in order by key. 
+Use the CompAll function from exercise 2 to sort the keys.
+]]
+
 function compareAll(A, B)
 	if type(A) ~= type(B) then
 		A, B = type(A), type(B)
